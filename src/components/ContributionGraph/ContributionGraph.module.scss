@@ -3,3 +3,11 @@
   grid-template-columns: max-content auto;
   gap: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+  .container{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 100%;
+  }
+}

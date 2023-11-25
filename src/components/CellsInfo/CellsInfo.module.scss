@@ -1,0 +1,23 @@
+.info{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-auto-flow: column;
+  grid-template-rows: 15px;
+  width: max-content;
+  align-items: center;
+  gap: 5px;
+
+  >.cells{
+    display: grid;
+    grid-template-columns: repeat(5, 15px);
+    grid-template-rows: 15px;
+    gap: 3px;
+  }
+
+  >span{
+    font-size: 8px;
+    color: rgba(149, 148, 148, 1);
+  }
+
+}
